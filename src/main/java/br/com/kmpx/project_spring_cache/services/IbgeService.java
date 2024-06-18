@@ -4,9 +4,11 @@ import br.com.kmpx.project_spring_cache.cloud.Ibge;
 import br.com.kmpx.project_spring_cache.cloud.IbgeResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.Cacheable;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service
 public class IbgeService {
 
     @Autowired
